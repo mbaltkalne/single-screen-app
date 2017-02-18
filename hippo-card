@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happy_hippo_day.MainActivity">
+
+    <ImageView
+        android:src="@drawable/baby"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/happy"
+        android:text="HAPPY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="2dp"
+        android:background="#FFFF00"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/international"
+        android:text="INTERNATIONAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:padding="2dp"
+        android:background="#FFFF00"
+        android:layout_below="@+id/happy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hippo"
+        android:text="HIPPO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:padding="2dp"
+        android:background="#78909C"
+        android:layout_below="@+id/international"
+        android:layout_alignParentLeft="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/day"
+        android:text="DAY!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:padding="2dp"
+        android:background="#FFFF00"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hippo"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+</RelativeLayout>
